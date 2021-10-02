@@ -1,12 +1,14 @@
+import Header from './components/Header'
+
+
 function App() {
-  const name = 'Enrico';
-  const x = false;
+  
   return (
     <div className="container">
-      <h1>Hello from React</h1>
-      <h2>Hello {x ? 'Yes' : 'No'}</h2>
+      <Header/>
     </div>
   );
 }
+
 
 export default App;
